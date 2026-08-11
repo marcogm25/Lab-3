@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    display: flex;
+    justify-content:space-between;
+    text-align: right;
+    position: relative;
+    margin-left: 80%;
+    padding: auto;
+    align-items: center;
+}
+.icono{
+    border-radius: 30px;
+    background-color: white;
+    border-style: none;
+    
+}
+.inicio{
+    color: white;
+    background-color:#1B62D3;
+    border-radius: 30px;
+    padding: 9px;
+    border-style: none;
+    
+}
+.logo{
+    margin-left: 505px;
+    padding: 50px;
+}
+footer{
+    width:100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #F3F5F6 ;
+    height: 80px;
+
+}
+.guat{
+    padding: 10px;
+}
+.foot{
+    justify-content: space-between;
+    display: flex;
+}
+.prim a{
+    border-bottom: 7px;
+    border-color: antiquewhite;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 3px;
+
+}
+.segund a{
+    text-decoration: none;
+    color: black;
+    padding: 10px; 
+}
+.text{
+    border-radius: 30px;
+    width: 30;
+    margin-right: 27%;
+    display: flex;
+    margin-left: 29%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 1px;
+}
+.text-i{
+    display: flex;
+}
+input{
+    width: 350px;
+    height: 30px;
+    border-color: #1b61d300;
+}
+.ia{
+    color: rgb(0, 0, 0);
+    background-color:#1b61d300;
+    border-radius: 30px;
+    padding: 9px;
+    border-style: none;
+}
+.ia span{
+    margin: 0;
+    padding: 0;
+}
+.botones{
+    text-align: center;
+    padding: 3px;
+}
+.bus{
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+}
+.voy{
+   font-size: 20px; 
+   border: none;
+   padding: 5px;
+   border-radius: 4px;
+}
+.disponible{
+    text-align: center;
+}
+.idioma{
+    color: purple;
+}
+* { box-sizing: border-box; }
+  body { margin:0; font-family: Arial, sans-serif; }
+  .contenedor { display:flex; min-height:100vh; }
+  .izquierda { flex:0 0 40%; background-image: url(campus.png); background-size: cover; background-position: center; text-align:center; padding:40px 20px; color: white; }
+  .derecha { flex:1; display:flex; align-items:center; justify-content:center; padding:40px 20px; }
+  .caja { max-width:340px; width:100%; text-align:center; }
+  .caja h2 { color: #023859; }
+  .caja input[type="text"], .caja input[type="password"] { width:100%; padding:12px; margin-bottom:14px; border:1px solid #ccc; border-radius:4px; font-size:15px; }
+  .remember { display:flex; align-items:center; gap:8px; text-align:left; margin-bottom:14px; }
+  .remember input[type="checkbox"] { margin:0; width:16px; height:16px; }
+  .btn { background:#16324a; color:#fff; border:none; padding:12px 30px; border-radius:4px; font-size:15px; cursor:pointer; }
